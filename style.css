@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.header{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    height: 50px;
+    color: blueviolet;
+    background-color: aqua;
+}
+.buttonLine{
+    border: none;
+    border-radius: 50%;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+button:hover{
+    border: 5px solid #000;
+}
+img{
+    height: 100px;
+}
+.imgLine{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.winnerCount{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.bottem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#noti{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: #000;
+}
